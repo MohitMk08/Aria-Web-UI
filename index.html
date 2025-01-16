@@ -2,107 +2,356 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aria | Free Css</title>
-    <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-          rel="stylesheet">
-    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" /> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-          crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aria | Free Css</title>
+  <link rel="shortcut icon" href="/assets/favicon.png" type="image/x-icon">
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-    <section id="header-section">
-        <div class="header-container">
-            <div class="logo">
-                <a href="#">
-                    <img src="assets/logo.svg" alt="logo" height="50px" width="100px">
-                </a>
+  <div id="page-loader" class="loader">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <div id="main-content">
+    <header id="headerSection">
+      <div class="header-container">
+        <div class="logo">
+          <a href="#">
+            <img src="assets/logo.svg" alt="logo" height="50px" width="100px">
+          </a>
 
-            </div>
-            <div class="navbar">
-                <div class="items "><a class="active" href="#home-section">home</a></div>
-                <div class="items"><a href="#intro-section">intro</a></div>
-                <div class="items"><a href="#services-section">services</a></div>
-                <div class="items"><a href="#callme-section">call me</a></div>
-                <div class="items"><a href="#projects-section">projects</a></div>
-                <div class="items"><a href="#about-section">about</a></div>
-                <div class="items"><a href="#contact-section">contact</a></div>
-                <div class="items navicon">
-                    <i class="fa-brands fa-facebook-f"></i>
-                </div>
-                <div class="items navicon">
-                    <i class="fa-brands fa-twitter"></i>
-                </div>
-            </div>
         </div>
-    </section>
+        <div class="navbar">
+          <div class="items "><a class="active" href="#home-section">home</a></div>
+          <div class="items"><a href="#intro-section">intro</a></div>
+          <div class="items"><a href="#services-section">services</a></div>
+          <div class="items"><a href="#callme-section">call me</a></div>
+          <div class="items"><a href="#projects-section">projects</a></div>
+          <div class="items"><a href="#about-section">about</a></div>
+          <div class="items"><a href="#contact-section">contact</a></div>
+          <div class="items navicon">
+            <i class="fa-brands fa-facebook-f"></i>
+          </div>
+          <div class="items navicon">
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+      </div>
+      <div id="stickyContent"></div>
+    </header>
+    <!-- <header>
+      <div id="main" class="duplicate">
+        <ul class="nav">
+          <li>
+            <a href="javascript://" title="Home">
+              <span class="icon-stack">
+                <i class="icon-circle icon-stack-base"></i>
+                <i class="icon-home icon-light"></i>
+              </span>
+              <span class="text">Home</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript://" title="About">
+              <span class="icon-stack">
+                <i class="icon-circle icon-stack-base"></i>
+                <i class="icon-leaf icon-light"></i>
+              </span>
+              <span class="text">About</span>
+            </a>
+          </li>
+          <li>
+            <a href="javascript://" title="Contact">
+              <span class="icon-stack">
+                <i class="icon-circle icon-stack-base"></i>
+                <i class="icon-phone icon-light"></i>
+              </span>
+              <span class="text">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="stickyContent"></div>
+    </header> -->
     <section id="home-section">
-        <div class="home-container">
-            <div class="home-content">
-                <h1>BUSINESS TEMPLETE</h1>
-                <h4>Aria is a top consultancy company specializing in business growth using online marketing and
-                    conversion optimization tactics</h4>
-                <button class="btn">DISCOVER</button>
-            </div>
+      <div class="home-container">
+        <div class="home-content">
+          <h1>BUSINESS TEMPLETE</h1>
+          <h4>Aria is a top consultancy company specializing in business growth using online marketing and
+            conversion optimization tactics</h4>
+          <button class="btn">DISCOVER</button>
         </div>
+      </div>
     </section>
     <section id="intro-section">
+      <div class="container">
         <div class="intro-container">
-            <div class="intro-content">
-                <div class="section-title">INTRO</div>
-                <h2>We Offer Some Of The Best Business Growth Services In Town</h2>
-                <p>Launching a new company or developing the market position of an existing one can be quite an
-                    overwhelming
-                    processs at times.
-                </p>
-                <p>"Our mission here at Aira is to get you through those tough moments relying on our team's expertise
-                    in
-                    starting and growing companies.</p>
+          <div class="intro-content">
+            <div class="section-title">INTRO</div>
+            <h2>We Offer Some Of The Best Business Growth Services In Town</h2>
+            <p>Launching a new company or developing the market position of an existing one can be quite an
+              overwhelming
+              processs at times.
+            </p>
+            <p>"Our mission here at Aira is to get you through those tough moments relying on our team's expertise
+              in
+              starting and growing companies.</p>
 
-                <h3>Louise Donovan - CEO</h3>
-            </div>
+            <h3>Louise Donovan - CEO</h3>
+          </div>
+          <div class="right-img">
             <img src="/assets/intro-office.jpg" alt="intro-image">
+          </div>
         </div>
+        <div class="blocks">
+          <div class="block-wrap">
+            <div class="icon">
+              <span class="icon-bg"></span>
+              <i class="fa-solid fa-binoculars" style="color: #fff;"></i>
+            </div>
+            <h3>Environment Analysis</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo est ab maxime nostrum mollitia</p>
+          </div>
+          <div class="block-wrap">
+            <div class="icon">
+              <span class="icon-bg"></span>
+              <i class="fa-solid fa-table-list" style="color: #fff;"></i>
+            </div>
+            <h3>Development Planning</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo est ab maxime nostrum mollitia</p>
+          </div>
+          <div class="block-wrap">
+            <div class="icon">
+              <span class="icon-bg"></span>
+              <i class="fa-solid fa-chart-pie" style="color: #fff;"></i>
+            </div>
+            <h3>Execution & Evaluation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nemo est ab maxime nostrum mollitia</p>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="service-section">
-        <div class="service-container">
+      <div class="service-container" style="background-color: #FBFBFB;">
+        <div class="container">
+          <div class="head-part">
+            <div class="section-title">SERVICES</div>
+            <h2>Choose The Service Package <br>That Suits Your Needs</h2>
+          </div>
+          <div class="cardWrapper">
+            <div class="card">
+              <div class="card-image">
+                <img src="/assets/services-1.jpg" alt="service-1-image">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Off The Ground Off The Ground</h3>
+                <p class="mb-1">
+                  Perfect for fresh ideas or young startups, this package will help get the business off the ground
+                </p>
+                <ul class="bullet-list">
+                  <li class="bullet">
+                    <i class="fa-solid fa-square-full fa-2xs" style="color: #14BF98;"></i>
+                    <p>Environment and competition</p>
+                  </li>
+                  <li class="bullet">
+                    <i class="fa-solid fa-square-full fa-2xs" style="color: #14BF98;"></i>
+                    <p>Designing the marketing plan</p>
+                  </li>
+                </ul>
 
+                <h3>Starting at<span class="price">$199</span></h3>
+              </div>
+              <button class="btn card-btn">DETAILS</button>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="/assets/services-2.jpg" alt="service-2-image">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Accelerated Growth</h3>
+                <p class="mb-1">
+                  Use this service pack to give your company the necessary impulse to become an industry leader
+                </p>
+                <ul class="bullet-list">
+                  <li class="bullet">
+                    <i class="fa-solid fa-square-full fa-2xs" style="color: #14BF98;"></i>
+                    <p>Business strategy planning</p>
+                  </li>
+                  <li class="bullet">
+                    <i class="fa-solid fa-square-full fa-2xs" style="color: #14BF98;"></i>
+                    <p>Taking the planned actions</p>
+                  </li>
+                </ul>
+
+                <h3>Starting at<span class="price">$299</span></h3>
+              </div>
+              <button class="btn card-btn">DETAILS</button>
+            </div>
+            <div class="card">
+              <div class="card-image">
+                <img src="/assets/services-3.jpg" alt="service-3-image">
+              </div>
+              <div class="card-body">
+                <h3 class="card-title">Market Domination</h3>
+                <p class="mb-1">
+                  You already are a reference point in your industry now you need to learn about acquisitions
+                </p>
+                <ul class="bullet-list">
+                  <li class="bullet">
+                    <i class="fa-solid fa-square-full fa-2xs" style="color: #14BF98;"></i>
+                    <p>Maintaining the leader status</p>
+                  </li>
+                  <li class="bullet">
+                    <i class="fa-solid fa-square-full fa-2xs" style="color: #14BF98;"></i>
+                    <p>Acquisitions the right way </p>
+                  </li>
+                </ul>
+
+                <h3>Starting at<span class="price">$299</span></h3>
+              </div>
+              <button class="btn card-btn">DETAILS</button>
+            </div>
+          </div>
         </div>
+      </div>
+    </section>
+    <section id="info-section">
+      <div class="info-container">
+        <div class=" info-content container-fluid">
+          <div class="imgPart">
+            <img src="assets/details-1-background.jpg" alt="info-image-1">
+          </div>
+          <div class="content-part">
+            <h3>Accelerate Business Growth To Improve Revenue Numbers</h3>
+            <!-- accordian -->
+            <section class="accordian" role="tablist" aria-live="polite">
+              <article>
+                <span id="tab0" tabindex="0" class="section-title" aria-controls="panel0" role="tab">
+                  <h3>Section Heading One</h3>
+                </span>
+                <div class="collapsing-section" id="panel0" aria-labelledby="tab0" role="tabpanel">
+                  <p>Cred seitan artisan, anim non proident scenester ethnic leggings art party chambray dolor
+                    single-origin coffee
+                    selvage laboris. Dolor dolore et, Godard polaroid typewriter put a bird on it meggings paleo fashion
+                    axe Vice ex
+                    placeat chambray. Viral mixtape fixie, tattooed organic four loko Vice exercitation. Tonx bitters
+                    lo-fi
+                    polaroid, Tumblr seitan fap food truck selfies Etsy pariatur raw denim fixie. Beard pork belly PBR&B
+                    Portland
+                    nostrud dolor. 90's cardigan consequat, eiusmod organic nostrud lo-fi ennui. Cardigan try-hard
+                    reprehenderit,
+                    delectus aute PBR&B flexitarian mlkshk street art VHS direct trade irony.</p>
+                </div>
+              </article>
+              <article>
+                <span id="tab1" tabindex="0" class="section-title" aria-controls="panel1" role="tab">
+                  <h3>Section Heading Two</h3>
+                </span>
+                <div class="collapsing-section" id="panel1" aria-labelledby="tab1" role="tabpanel">
+                  <p>Veniam quinoa ennui sriracha. Meh put a bird on it Truffaut fanny pack tempor, cupidatat direct
+                    trade bicycle
+                    rights Intelligentsia squid officia Etsy. Bespoke messenger bag veniam ex pop-up bitters. Tumblr
+                    adipisicing
+                    viral laboris sriracha actually. Cornhole keffiyeh labore, Tonx meh Helvetica XOXO. Labore mlkshk
+                    deep v twee,
+                    fanny pack est pop-up viral non slow-carb swag. Adipisicing swag bicycle rights distillery proident
+                    chambray,
+                    Helvetica Truffaut roof party leggings deep v Thundercats ea.</p>
+                </div>
+              </article>
+              <article>
+                <span id="tab2" tabindex="0" class="section-title" aria-controls="panel2" role="tab">
+                  <h3>Section Heading Three</h3>
+                </span>
+                <div class="collapsing-section" id="panel2" aria-labelledby="tab2" role="tabpanel">
+                  <p>Odio distillery Bushwick fap, cliche keffiyeh viral meh sunt Helvetica duis anim ethnic
+                    adipisicing.
+                    Post-ironic brunch accusamus, freegan ullamco readymade meggings Neutra artisan hashtag cupidatat
+                    letterpress yr
+                    magna art party. Sunt farm-to-table deserunt accusamus, nihil skateboard blog American Apparel
+                    meggings master
+                    cleanse drinking vinegar ullamco. Quis pour-over nihil laboris Vice meh, labore DIY cornhole kogi.
+                    Trust fund
+                    raw denim selvage flexitarian lomo. Sapiente chambray magna kogi, typewriter Godard lo-fi PBR&B
+                    ethnic before
+                    they sold out raw denim fanny pack consectetur bitters church-key. Williamsburg Marfa YOLO, id paleo
+                    banh mi
+                    fashion axe Thundercats put a bird on it post-ironic gastropub mlkshk wayfarers.</p>
+                </div>
+              </article>
+              <article>
+                <span id="tab3" tabindex="0" class="section-title" aria-controls="panel3" role="tab">
+                  <h3>Section Heading Four</h3>
+                </span>
+                <div class="collapsing-section" id="panel3" aria-labeledby="tab3" role="tabpanel">
+                  <p>Mollit distillery trust fund, bitters pug twee cardigan chillwave. Bitters try-hard tempor, ad
+                    pop-up scenester
+                    in. Bitters roof party distillery typewriter trust fund Cosby sweater Pinterest occupy disrupt, put
+                    a bird on it
+                    skateboard ad tofu. Odio fap trust fund ad, put a bird on it incididunt Tonx ugh Pitchfork sartorial
+                    meggings
+                    Cosby sweater actually quis. Banksy High Life lo-fi incididunt chambray placeat, lomo in magna irure
+                    commodo.
+                    Semiotics vegan aute, cillum et raw denim asymmetrical eiusmod letterpress High Life Blue Bottle
+                    Williamsburg
+                    Tonx. Craft beer adipisicing irure, 3 wolf moon butcher selvage synth aute Wes Anderson.</p>
+                </div>
+              </article>
+            </section>
+            <!-- accordian -->
+          </div>
+        </div>
+        <div class="info-content container-fluid">
+          <div class="content-part">
+            <h3>Business Services For Companies</h3>
+          </div>
+          <div class="imgPart">
+            <img src="assets/details-2-background.jpg" alt="info-image-1">
+          </div>
+        </div>
+      </div>
     </section>
     <section id="callme-section">
-        <div class="callme-container">
+      <div class="callme-container">
+        <div class="container-fluid">
 
         </div>
+      </div>
     </section>
     <section id="project-section">
-        <div class="project-container">
+      <div class="project-container">
 
-        </div>
+      </div>
     </section>
     <section id="about-section">
-        <div class="about-container">
+      <div class="about-container">
 
-        </div>
+      </div>
     </section>
     <section id="contact-section">
-        <div class="contact-container">
+      <div class="contact-container">
 
-        </div>
+      </div>
     </section>
     <section id="footer-section">
-        <div class="footer-container">
+      <div class="footer-container">
 
-        </div>
+      </div>
     </section>
 
-
+  </div>
 </body>
 
 </html>
